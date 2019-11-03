@@ -1,0 +1,28 @@
+.header {
+    padding: 10px 0;
+    display: flex;
+    background-color: #033048;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a { 
+    color: #f9e42e;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+ul{
+    list-style-type: none;
+}
+.posttitles{
+    text-size-adjust:2em;
+    
+}
+
+.article_text::first-letter{
+    float: left;
+    font-size: 2em;
+}
